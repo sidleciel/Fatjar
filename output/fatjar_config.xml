@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+    <jars> 
+		<jar path="E:\\...release\\source1.jar"/>
+		<jar path="E:\\...release\\source2.jar"/>
+	</jars>
+
+	<assets path="E:\\..\\fatjar\\assets"/>
+
+	<output path="E:\\..\\fatjar\\outputs\\dest.jar"/>
+</files>
