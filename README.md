@@ -21,17 +21,17 @@
 
 已输出端额fatjar可能并未满足场景需求，此时可以修改源码并编译成jar。
 
-步骤如下：
-1.到bin目录下打包jar。
+步骤如下：<br/>
+1.到bin目录下打包jar。<br/>
 jar -cvf fatjar.jar com
 
-2.解压得到MANIFEST.MF，并修改Main-Class。
-Manifest-Version: 1.0
-Main-Class: com.echelon.fatjar.Launcher
+2.解压得到MANIFEST.MF，并修改Main-Class。<br/>
+Manifest-Version: 1.0<br/>
+Main-Class: com.echelon.fatjar.Launcher<br/>
 Created-By: 1.8.0_60 (Oracle Corporation)
 
-3.带MANIFEST重新打包
+3.带MANIFEST重新打包。<br/>
 jar -cvfm fatjar.jar MANIFEST.MF com
 
-4.执行jar测试。
+4.执行jar测试。<br/>
 java -jar fatjar.jar
