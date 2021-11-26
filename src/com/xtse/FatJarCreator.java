@@ -1,4 +1,4 @@
-package com.echelon.fatjar;
+package com.xtse;
 
 import java.io.File;
 import java.io.FileInputStream;
